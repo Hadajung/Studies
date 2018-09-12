@@ -1,0 +1,44 @@
+.App {
+  margin: auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.title {
+  text-align: center;
+  font-size: 28px;
+}
+
+.form-inline {
+  margin: 10px;
+}
+
+.form-control {
+  margin-right: 5px;
+}
+
+.reminder-form {
+  padding: 10px;
+}
+
+.list-group-item {
+  display: flex;
+  flex-direction: row;
+}
+
+.delete-button {
+  float: right;
+  right: 10px;
+  position: absolute;
+}
+
+.clear-button {
+  float:right;
+  position: absolute;
+}
+
+.alert {
+  margin: 10px;
+}
