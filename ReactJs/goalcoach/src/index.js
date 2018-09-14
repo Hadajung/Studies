@@ -22,7 +22,7 @@ firebaseApp.auth().onAuthStateChanged(user => {
     store.dispatch(logUser(email));
     browserHistory.push('/app');
   } else {
-    console.log('user is not here');
+    //console.log('user is not here');
     browserHistory.replace('/signin');
   }
 })
